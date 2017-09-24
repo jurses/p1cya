@@ -24,10 +24,9 @@ void Row::insertBlock(std::vector<Block>& tempVBlock, Block& block){
 	tempVBlock.pop_back();	// sacamos el elemento
 }
 
-
-
-void Row::obtainAllRows(void){
+const std::vector<std::vector<Block>> Row::obtainAllRows(void){
 	std::vector<Block> tempVBlock;
 	insertBlock(tempVBlock, Block(3, 1));
 	insertBlock(tempVBlock, Block(2, 1));
+	return vectorBlock_;
 }

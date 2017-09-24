@@ -10,10 +10,10 @@ class Row{
 private:
 	int length_;
 	std::vector<std::vector<Block>>	vectorBlock_;
-	void obtainAllRows(std::vector<Block>&, Block&);
+	
 public:
 	Row(int);	// max of length
-	void obtainAllRows(void);
+	const std::vector<std::vector<Block>> obtainAllRows(void);
 };
 
 #endif	// ROW_H_
