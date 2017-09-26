@@ -1,0 +1,103 @@
+Filas: 
+
+5
+Añadimos otra fila al muro de tamaño 0
+3 3 3 
+Muro pequeño
+Añadimos otra fila al muro de tamaño 1
+3 3 3 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+3 2 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 3 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 3 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 2 3 
+Fila Mala, se quita
+Quitamos
+3 3 3 
+Añadimos otra fila al muro de tamaño 0
+3 2 2 2 
+Muro pequeño
+Añadimos otra fila al muro de tamaño 1
+3 3 3 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+3 2 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 3 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 3 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 2 3 
+Fila Mala, se quita
+Quitamos
+3 2 2 2 
+Añadimos otra fila al muro de tamaño 0
+2 3 2 2 
+Muro pequeño
+Añadimos otra fila al muro de tamaño 1
+3 3 3 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+3 2 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 3 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 3 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 2 3 
+Fila Mala, se quita
+Quitamos
+2 3 2 2 
+Añadimos otra fila al muro de tamaño 0
+2 2 3 2 
+Muro pequeño
+Añadimos otra fila al muro de tamaño 1
+3 3 3 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+3 2 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 3 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 3 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 2 3 
+Fila Mala, se quita
+Quitamos
+2 2 3 2 
+Añadimos otra fila al muro de tamaño 0
+2 2 2 3 
+Muro pequeño
+Añadimos otra fila al muro de tamaño 1
+3 3 3 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+3 2 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 3 2 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 3 2 
+Fila Mala, se quita
+Añadimos otra fila al muro de tamaño 1
+2 2 2 3 
+Fila Mala, se quita
+Quitamos
+2 2 2 3 
