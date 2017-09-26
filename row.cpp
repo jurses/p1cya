@@ -1,5 +1,4 @@
 #include "row.hpp"
-#include <iostream>
 
 typedef std::vector<Block> row_T;
 
@@ -9,7 +8,12 @@ Row::Row(int length):
 
 }
 
-void Row::insertBlock(row_T& tempVBlock, Block& block){
+Row::Row(const Row& row){
+  length_ = row.length_;
+  vectorBlock_ = row.vectorBlock_;
+}
+
+void Row::insertBlock(row_T& tempVBlock, const Block& block){
 	tempVBlock.push_back(block);
 	if(obtSize(tempVBlock) < length_){
 		Block A(3, 1);

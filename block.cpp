@@ -3,12 +3,10 @@
 Block::Block(int width, int height):
 	high_(height),
 	length_(width)
-{
-	int i=0;
-	for(; i<length_; i++)
-		stringBlock_[i] = 'X';
+{}
 
-	stringBlock_[i] = '\0';
+Block::~Block(){
+  //std::cout << "destroy" << std::endl;
 }
 
 Block::Block(const Block& b){
@@ -25,5 +23,7 @@ bool Block::operator<(const Block& B){
 }
 
 const char* Block::showBlock(void){
-	return stringBlock_;
+	  for(int i=0; i<length_; i++)
+	    stringBlock_.push_back('X');
+	  return stringBlock_.c_str();
 }

@@ -17,26 +17,26 @@ Wall::Wall(int length, int high):
 // allWalls_ es un vector de muros, o sea muro[i]; i = 0, 1, 2, 3...
 void Wall::insertRowInWall(vRows_T& tempWall, int level){
 	for(vRows_T::iterator it = allRows_.begin(); it != allRows_.end(); it++){
-		std::cout << "Añadimos otra fila al muro de tamaño " << tempWall.size() << std::endl;
-		showRow(*it);
+		//std::cout << "Añadimos otra fila al muro de tamaño " << tempWall.size() << std::endl;
+		//showRow(*it);
 		tempWall.push_back(*it);	// metemos un muro
 		if(checkJoints(tempWall, level)){	// comprobamos
 			tempWall.pop_back();	// si está mal lo quitamos
-			std::cout << "Fila Mala, se quita" << std::endl;
+			//std::cout << "Fila Mala, se quita" << std::endl;
 		}
 		else{
 			if(tempWall.size() == high_){	// tiene la altura correcta
 				allWalls_.push_back(tempWall);	// lo añadimos al vector de muros allWalls_
-				std::cout << "Muro bueno +1" << std::endl;
+				//std::cout << "Muro bueno +1" << std::endl;
 			}
 			else if(tempWall.size() < high_){	// es pequeño aún, se le puede poner otra fila
-				std::cout << "Muro pequeño" << std::endl;
+				//std::cout << "Muro pequeño" << std::endl;
 				insertRowInWall(tempWall, level + 1);	// mandamos a otra fila
 			}
 			
 			if(!tempWall.empty()){	// si no está vacío
-				std::cout << "Quitamos" << std::endl;
-				showRow(tempWall.front());
+				//std::cout << "Quitamos" << std::endl;
+				//showRow(tempWall.front());
 				tempWall.pop_back();	// quitar el que pusimos
 			}
 		}
@@ -74,6 +74,7 @@ std::ostream& Wall::showWalls(std::ostream& os){
 		os << std::endl;
 		os << "__________Siguiente muro____" << std::endl;
 		for(vRows_T::iterator it2 = it1->begin(); it2 != it1->end(); it2++){	// vector de fila = muro
+			os << std::endl;
 			for(row_T::iterator it3 = it2->begin(); it3 != it2->end(); it3++){	// vector bloques	= fila
 				os << it3->showBlock() << '|';
 			}

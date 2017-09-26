@@ -16,8 +16,9 @@ private:
 	int obtSize(row_T&);
 public:
 	Row(int);	// max of length
+	Row(const Row&);	// constructor de copia
 	const vRows_T obtainAllRows(void);
-	void insertBlock(row_T&, Block&);
+	void insertBlock(row_T&, const Block&);
 	void showRows(void);
 };
 

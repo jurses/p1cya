@@ -2,7 +2,8 @@
 #include "wall.hpp"
 
 int main(void){
-	Wall A(9, 3);
+	Wall A(14, 10);
 	A.obtainAllWalls();
-	//A.showWalls(std::cout);
+	A.showWalls(std::cout);
+	std::cout << std::endl;
 }
